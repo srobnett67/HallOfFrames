@@ -10,21 +10,29 @@
 #import "Picture.h"
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
 @property NSMutableArray *pictures;
-//@property Picture *pictureOne;
-//@property Picture *pictureTwo;
-//@property Picture *pictureThree;
-//@property Picture *pictureFour;
-//@property Picture *pictureFive;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 
 @end
+
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.pictures = [[NSMutableArray alloc]init];
+    
+    self.pictures = @[]
+    
+    
+    
+    
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
