@@ -12,7 +12,6 @@
 
 @property UIImage *image;
 @property UIColor *frameColor;
-
-@property NSArray *pictureArray;
+@property NSMutableArray *pictureArray;
 
 @end
