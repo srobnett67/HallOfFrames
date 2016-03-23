@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D84C8B1CA3251D0080E531 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D84C8A1CA3251D0080E531 /* Picture.m */; };
 		EC420E241CA3219C00E42FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC420E231CA3219C00E42FB6 /* main.m */; };
 		EC420E271CA3219C00E42FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC420E261CA3219C00E42FB6 /* AppDelegate.m */; };
 		EC420E2A1CA3219C00E42FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC420E291CA3219C00E42FB6 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10D84C891CA3251D0080E531 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		10D84C8A1CA3251D0080E531 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 		EC420E1F1CA3219C00E42FB6 /* HallOfFrames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallOfFrames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC420E231CA3219C00E42FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC420E251CA3219C00E42FB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				EC420E281CA3219C00E42FB6 /* ViewController.h */,
 				EC420E291CA3219C00E42FB6 /* ViewController.m */,
 				EC420E2B1CA3219C00E42FB6 /* Main.storyboard */,
+				10D84C891CA3251D0080E531 /* Picture.h */,
+				10D84C8A1CA3251D0080E531 /* Picture.m */,
 				EC420E2E1CA3219C00E42FB6 /* Assets.xcassets */,
 				EC420E301CA3219C00E42FB6 /* LaunchScreen.storyboard */,
 				EC420E331CA3219C00E42FB6 /* Info.plist */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D84C8B1CA3251D0080E531 /* Picture.m in Sources */,
 				EC420E2A1CA3219C00E42FB6 /* ViewController.m in Sources */,
 				EC420E271CA3219C00E42FB6 /* AppDelegate.m in Sources */,
 				EC420E241CA3219C00E42FB6 /* main.m in Sources */,
@@ -298,6 +304,7 @@
 				EC420E381CA3219C00E42FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
