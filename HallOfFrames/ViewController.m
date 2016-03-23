@@ -25,16 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.pictures = [[NSMutableArray alloc]init];
-    // initialize here
-    
-    Picture *pictureOne = [[Picture alloc] initWithImage:[UIImage imageNamed:pictureOne] andColor:[UIColor redColor]];
-    
-    
-    self.pictures = @[pictureOne];
-    
-    
 }
-
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return self.pictures.count;

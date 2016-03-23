@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Picture : UICollectionViewCell
+@interface Picture : NSObject
 
 @property UIImage *image;
 @property UIColor *frameColor;
 
--(instancetype) initWithImage:(UIImage *)image andColor:(UIColor *)frameColor;
+-(instancetype) initWithImage:(NSString *)image andColor:(UIColor *)frameColor;
 
 @end
