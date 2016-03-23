@@ -12,6 +12,7 @@
 
 @property UIImage *image;
 @property UIColor *frameColor;
-@property NSMutableArray *pictureArray;
+
+-(instancetype) initWithName:(UIImage *)image andColor:(UIColor *)frameColor;
 
 @end

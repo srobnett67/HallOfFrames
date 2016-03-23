@@ -11,6 +11,9 @@
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property NSMutableArray *pictures;
+
+
 
 @end
 
@@ -18,7 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.pictures = [NSMutableArray new];
+    
 }
 
 
