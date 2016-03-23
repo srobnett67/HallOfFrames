@@ -13,6 +13,6 @@
 @property UIImage *image;
 @property UIColor *frameColor;
 
--(instancetype) initWithName:(UIImage *)image andColor:(UIColor *)frameColor;
+-(instancetype) initWithImage:(UIImage *)image andColor:(UIColor *)frameColor;
 
 @end

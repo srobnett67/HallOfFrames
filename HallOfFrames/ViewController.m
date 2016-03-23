@@ -12,8 +12,11 @@
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property NSMutableArray *pictures;
-
-
+//@property Picture *pictureOne;
+//@property Picture *pictureTwo;
+//@property Picture *pictureThree;
+//@property Picture *pictureFour;
+//@property Picture *pictureFive;
 
 @end
 
@@ -21,13 +24,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.pictures = [NSMutableArray new];
-    
+    self.pictures = [[NSMutableArray alloc]init];
+    // initialize here
 }
 
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 0;
+    return 5;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
